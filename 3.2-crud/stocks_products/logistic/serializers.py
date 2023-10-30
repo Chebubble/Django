@@ -1,5 +1,5 @@
 from rest_framework import serializers
-
+from logistic.models import Product, Stock, StockProduct
 
 class ProductSerializer(serializers.ModelSerializer):
     # настройте сериализатор для продукта
